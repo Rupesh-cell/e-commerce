@@ -17,7 +17,7 @@ const Ad = () => {
     axios
       .request(options)
       .then(function (response) {
-        setBanner(response.data.banner);
+        setBanner(response.data.image);
 
       })
       .catch(function (error) {

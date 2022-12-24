@@ -11,7 +11,6 @@ const {
 	Order,
 	ProductImages,
 	ProductOrder,
-
 	SalesBanner,
 	SalesCarousel,
 } = require("../models/index");
@@ -44,7 +43,7 @@ const start = async (app) => {
 		databases: [sequelize],
 		branding: {
 			companyName: "Fevbal",
-			logo: "https://pbs.twimg.com/profile_images/1590607513179033601/GMfWWfH0_400x400.jpg",
+			logo: "http://localhost:3000/static/media/Logo.0b36858618ce317225ac9bb23d80bd02.svg",
 			withMadeWithLove: false,
 		},
 	});

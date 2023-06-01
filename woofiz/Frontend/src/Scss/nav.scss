@@ -67,7 +67,7 @@
           border-radius: 40px;
           border: 1px solid white;
           height: 13px;
-          
+
           align-items: center;
           margin-top: -36px;
           margin-left: 16px;
@@ -86,17 +86,16 @@
   .second-nav {
     background: white;
     background: #0f6799;
-    border-top:1px solid white;
+    border-top: 1px solid white;
 
     .sec-nav-items {
       width: 100%;
       margin: auto;
       height: 57px;
       max-width: 1140px;
-      display:flex;
+      display: flex;
       justify-content: space-between;
-      
-     
+
       a {
         text-decoration: none;
         font-weight: 500;
@@ -104,7 +103,6 @@
         line-height: 16px;
         color: #ffffff;
         padding-top: 19px;
-        
       }
     }
   }
